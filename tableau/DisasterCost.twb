@@ -1,0 +1,1242 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='time-series-US-cost-1980-2024 (time-series-US-cost-1980-2024.v3)' inline='true' name='federated.12vcrny1caplee178cs3j03azn5d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='time-series-US-cost-1980-2024.v3' name='excel-direct.014sjxm1hde9xc1bt7u1y1g4yhdv'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/jamesventer/Desktop/MIDS/DS209/time-series-US-cost-1980-2024.v3.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.014sjxm1hde9xc1bt7u1y1g4yhdv' name='time-series-US-cost-1980-2024' table='[&apos;time-series-US-cost-1980-2024$&apos;]' type='table'>
+          <columns gridOrigin='A1:R45:no:A1:R45:0' header='yes' outcome='6'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='datetime' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='integer' name='Drought Count' ordinal='2' />
+            <column datatype='integer' name='Flooding Count' ordinal='3' />
+            <column datatype='integer' name='Freeze Count' ordinal='4' />
+            <column datatype='integer' name='Severe Storm Count' ordinal='5' />
+            <column datatype='integer' name='Tropical Cyclone Count' ordinal='6' />
+            <column datatype='integer' name='Wildfire Count' ordinal='7' />
+            <column datatype='integer' name='Winter Storm Count' ordinal='8' />
+            <column datatype='integer' name='All Disasters Count' ordinal='9' />
+            <column datatype='real' name='Drought Cost' ordinal='10' />
+            <column datatype='real' name='Flooding Cost' ordinal='11' />
+            <column datatype='real' name='Freeze Cost' ordinal='12' />
+            <column datatype='real' name='Severe Storm Cost' ordinal='13' />
+            <column datatype='real' name='Tropical Cyclone Cost' ordinal='14' />
+            <column datatype='real' name='Wildfire Cost' ordinal='15' />
+            <column datatype='real' name='Winter Storm Cost' ordinal='16' />
+            <column datatype='real' name='All Disasters Cost' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.014sjxm1hde9xc1bt7u1y1g4yhdv' name='time-series-US-cost-1980-2024' table='[&apos;time-series-US-cost-1980-2024$&apos;]' type='table'>
+          <columns gridOrigin='A1:R45:no:A1:R45:0' header='yes' outcome='6'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='datetime' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='integer' name='Drought Count' ordinal='2' />
+            <column datatype='integer' name='Flooding Count' ordinal='3' />
+            <column datatype='integer' name='Freeze Count' ordinal='4' />
+            <column datatype='integer' name='Severe Storm Count' ordinal='5' />
+            <column datatype='integer' name='Tropical Cyclone Count' ordinal='6' />
+            <column datatype='integer' name='Wildfire Count' ordinal='7' />
+            <column datatype='integer' name='Winter Storm Count' ordinal='8' />
+            <column datatype='integer' name='All Disasters Count' ordinal='9' />
+            <column datatype='real' name='Drought Cost' ordinal='10' />
+            <column datatype='real' name='Flooding Cost' ordinal='11' />
+            <column datatype='real' name='Freeze Cost' ordinal='12' />
+            <column datatype='real' name='Severe Storm Cost' ordinal='13' />
+            <column datatype='real' name='Tropical Cyclone Cost' ordinal='14' />
+            <column datatype='real' name='Wildfire Cost' ordinal='15' />
+            <column datatype='real' name='Winter Storm Cost' ordinal='16' />
+            <column datatype='real' name='All Disasters Cost' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R45:no:A1:R45:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drought Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drought Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Drought Count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flooding Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Flooding Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Flooding Count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Freeze Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Freeze Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Freeze Count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Severe Storm Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Severe Storm Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Severe Storm Count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tropical Cyclone Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tropical Cyclone Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Tropical Cyclone Count</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildfire Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wildfire Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Wildfire Count</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winter Storm Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Winter Storm Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Winter Storm Count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All Disasters Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[All Disasters Count]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>All Disasters Count</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drought Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Drought Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Drought Cost</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flooding Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Flooding Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Flooding Cost</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Freeze Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Freeze Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Freeze Cost</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Severe Storm Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Severe Storm Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Severe Storm Cost</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tropical Cyclone Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tropical Cyclone Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Tropical Cyclone Cost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildfire Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wildfire Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Wildfire Cost</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winter Storm Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Winter Storm Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>Winter Storm Cost</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All Disasters Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[All Disasters Cost]</local-name>
+            <parent-name>[time-series-US-cost-1980-2024]</parent-name>
+            <remote-alias>All Disasters Cost</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[All Disasters Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[All Disasters Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Drought Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Drought Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Flooding Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Flooding Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Freeze Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Freeze Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Severe Storm Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Severe Storm Count]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[Tropical Cyclone Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tropical Cyclone Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Wildfire Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wildfire Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Winter Storm Cost]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Winter Storm Count]' role='measure' type='quantitative' />
+      <column datatype='datetime' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='time-series-US-cost-1980-2024' datatype='table' name='[__tableau_internal_object_id__].[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[All Disasters Cost]' derivation='Sum' name='[sum:All Disasters Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[All Disasters Count]' derivation='Sum' name='[sum:All Disasters Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Drought Cost]' derivation='Sum' name='[sum:Drought Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Drought Count]' derivation='Sum' name='[sum:Drought Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Flooding Cost]' derivation='Sum' name='[sum:Flooding Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Flooding Count]' derivation='Sum' name='[sum:Flooding Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Freeze Cost]' derivation='Sum' name='[sum:Freeze Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Freeze Count]' derivation='Sum' name='[sum:Freeze Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Severe Storm Cost]' derivation='Sum' name='[sum:Severe Storm Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Severe Storm Count]' derivation='Sum' name='[sum:Severe Storm Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tropical Cyclone Cost]' derivation='Sum' name='[sum:Tropical Cyclone Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tropical Cyclone Count]' derivation='Sum' name='[sum:Tropical Cyclone Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wildfire Cost]' derivation='Sum' name='[sum:Wildfire Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wildfire Count]' derivation='Sum' name='[sum:Wildfire Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Winter Storm Cost]' derivation='Sum' name='[sum:Winter Storm Cost:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Winter Storm Count]' derivation='Sum' name='[sum:Winter Storm Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[All Disasters Cost]' derivation='Sum' name='[win:sum:All Disasters Cost:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-3' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[All Disasters Cost]' derivation='Sum' name='[win:sum:All Disasters Cost:qk:4]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-4' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <column-instance column='[All Disasters Cost]' derivation='Sum' name='[win:sum:All Disasters Cost:qk:6]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-3' ordering-type='Rows' to='0' type='WindowTotal' window-options='' />
+      </column-instance>
+      <column-instance column='[All Disasters Cost]' derivation='Sum' name='[win:sum:All Disasters Cost:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Freeze Count:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Flooding Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Tropical Cyclone Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Winter Storm Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Tropical Cyclone Count:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[__tableau_internal_object_id__].[cnt:time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222066692:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:2]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:All Disasters Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:4]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:6]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Severe Storm Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Drought Count:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Freeze Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Wildfire Count:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Winter Storm Count:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Wildfire Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:2]:1&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Flooding Count:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Drought Cost:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Severe Storm Count:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:All Disasters Count:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='time-series-US-cost-1980-2024' id='time-series-US-cost-1980-2024_A9DC2801DD3B4F2F98355BC0C183E9EA'>
+            <properties context=''>
+              <relation connection='excel-direct.014sjxm1hde9xc1bt7u1y1g4yhdv' name='time-series-US-cost-1980-2024' table='[&apos;time-series-US-cost-1980-2024$&apos;]' type='table'>
+                <columns gridOrigin='A1:R45:no:A1:R45:0' header='yes' outcome='6'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='datetime' date-parse-format='yyyy' name='Year' ordinal='1' />
+                  <column datatype='integer' name='Drought Count' ordinal='2' />
+                  <column datatype='integer' name='Flooding Count' ordinal='3' />
+                  <column datatype='integer' name='Freeze Count' ordinal='4' />
+                  <column datatype='integer' name='Severe Storm Count' ordinal='5' />
+                  <column datatype='integer' name='Tropical Cyclone Count' ordinal='6' />
+                  <column datatype='integer' name='Wildfire Count' ordinal='7' />
+                  <column datatype='integer' name='Winter Storm Count' ordinal='8' />
+                  <column datatype='integer' name='All Disasters Count' ordinal='9' />
+                  <column datatype='real' name='Drought Cost' ordinal='10' />
+                  <column datatype='real' name='Flooding Cost' ordinal='11' />
+                  <column datatype='real' name='Freeze Cost' ordinal='12' />
+                  <column datatype='real' name='Severe Storm Cost' ordinal='13' />
+                  <column datatype='real' name='Tropical Cyclone Cost' ordinal='14' />
+                  <column datatype='real' name='Wildfire Cost' ordinal='15' />
+                  <column datatype='real' name='Winter Storm Cost' ordinal='16' />
+                  <column datatype='real' name='All Disasters Cost' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='24'>Total Annual Cost of Billion Dollar Natural Disasters Since 1980</run>
+            <run>&#10;with 3 Year Moving Average</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='time-series-US-cost-1980-2024 (time-series-US-cost-1980-2024.v3)' name='federated.12vcrny1caplee178cs3j03azn5d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12vcrny1caplee178cs3j03azn5d'>
+            <column datatype='real' name='[All Disasters Cost]' role='measure' type='quantitative' />
+            <column caption='3 Yr Moving Avg' datatype='real' name='[Calculation_5398549348222132229]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='//3 Yr Moving Avg&#10;WINDOW_AVG(SUM([All Disasters Cost]), -3, 0)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='real' name='[Drought Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Flooding Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Freeze Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Severe Storm Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tropical Cyclone Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Wildfire Cost]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Winter Storm Cost]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Drought Cost]' derivation='Sum' name='[sum:Drought Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Flooding Cost]' derivation='Sum' name='[sum:Flooding Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Freeze Cost]' derivation='Sum' name='[sum:Freeze Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Severe Storm Cost]' derivation='Sum' name='[sum:Severe Storm Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tropical Cyclone Cost]' derivation='Sum' name='[sum:Tropical Cyclone Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wildfire Cost]' derivation='Sum' name='[sum:Wildfire Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Winter Storm Cost]' derivation='Sum' name='[sum:Winter Storm Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_5398549348222132229]' derivation='User' name='[usr:Calculation_5398549348222132229:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Tropical Cyclone Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Severe Storm Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Drought Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Flooding Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Freeze Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Wildfire Cost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Winter Storm Cost:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Freeze Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Drought Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Flooding Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Wildfire Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Winter Storm Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Severe Storm Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[sum:Tropical Cyclone Cost:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]' scope='rows' value='Billions of Dollars (CPI Adjusted)' />
+            <encoding attr='space' class='0' field='[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]' field-type='quantitative' fold='true' max='400.0' min='0.0' range-type='fixed' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]' value='15' />
+            <format attr='font-size' field='[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]' value='10' />
+            <format attr='font-weight' field='[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]>:	]]></run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Moving Average of All Disasters Cost from the previous 3 to the next 0 along Table (Across):	</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:2]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]> (Bill $s):	]]></run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Moving Average of All Disasters Cost from the previous 3 to the next 0 along Table (Across):	</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[win:sum:All Disasters Cost:qk:2]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]>:	]]></run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Moving Average of All Disasters Cost from the previous 3 to the next 0 along Table (Across):	</run>
+                <run bold='true'><![CDATA[<[federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.2853591442108154' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.12vcrny1caplee178cs3j03azn5d].[Multiple Values] + [federated.12vcrny1caplee178cs3j03azn5d].[usr:Calculation_5398549348222132229:qk])</rows>
+        <cols>[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{42DF5C59-B8C0-435D-B36F-0BAF6374B684}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='24'>Total Annual Cost of Billion Dollar Natural Disasters Since 1980</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='time-series-US-cost-1980-2024 (time-series-US-cost-1980-2024.v3)' name='federated.12vcrny1caplee178cs3j03azn5d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12vcrny1caplee178cs3j03azn5d'>
+            <column datatype='real' name='[All Disasters Cost]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[All Disasters Cost]' derivation='Sum' name='[sum:All Disasters Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12vcrny1caplee178cs3j03azn5d].[sum:All Disasters Cost:qk]' scope='rows' value='Billion Dollars (CPI Adjusted)' />
+            <encoding attr='space' class='0' field='[federated.12vcrny1caplee178cs3j03azn5d].[sum:All Disasters Cost:qk]' field-type='quantitative' max='415.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.12vcrny1caplee178cs3j03azn5d].[sum:All Disasters Cost:qk]</rows>
+        <cols>[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{447C0362-938A-4127-9D84-E8DF5CAB56B7}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[attr:Drought Cost:qk]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[sum:Severe Storm Cost:qk]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[tyr:Year:ok]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[tyr:Year:qk]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year (copy)_5398549348209340416:ok]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A36080E2-CA87-40E2-A41F-7244CA02D126}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[:Measure Names]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[tyr:Year:qk]</field>
+            <field>[federated.12vcrny1caplee178cs3j03azn5d].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{02128B79-C034-48BE-A327-45C7E3480523}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
