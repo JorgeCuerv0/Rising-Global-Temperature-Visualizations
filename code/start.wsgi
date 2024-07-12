@@ -1,6 +1,6 @@
 import os, sys
 
-PROJECT_DIR = '/home/timothym98/w209'
+PROJECT_DIR = '/home/timothym98/w209/209_Majidzadeh_Sandoval_Venter/code'
 
 activate_this = '/home/timothym98/w209/bin/activate_this.py'
 with open(activate_this) as file_:
