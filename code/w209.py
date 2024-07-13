@@ -13,6 +13,10 @@ def disasters_bar():
 def disasters_map():
     return render_template('disasters_map.html')
 
+@app.route("/disasters_map_facet")
+def disasters_map_facet():
+    return render_template('disasters_map_facet.html')
+
 @app.route("/time_line")
 def time_line():
     return render_template('time_line.html')
