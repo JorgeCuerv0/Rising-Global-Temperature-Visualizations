@@ -2,10 +2,14 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
+def home():
+    return render_template('home.html')
 #def w209():
 #    file="about9.jpg"
 #    return render_template("w209.html",file=file)
 
+
+@app.route("/disasters_bar")
 def disasters_bar():
     return render_template('disasters_bar.html')
 
