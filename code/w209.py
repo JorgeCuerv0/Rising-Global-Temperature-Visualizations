@@ -17,6 +17,10 @@ def disasters_map():
 def disasters_map_facet():
     return render_template('disasters_map_facet.html')
 
+@app.route("/avg_temp_map_county")
+def avg_temp_map_county():
+    return render_template('avg_temp_map_county.html')
+
 @app.route("/time_line")
 def time_line():
     return render_template('time_line.html')
