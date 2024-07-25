@@ -1,29 +1,30 @@
-<!-- navigation.html -->
-<ul>
-    <li><a href="{{ url_for('home') }}">Home</a></li>
-	<li>Climate-Related Natural Disasters are Widespread Across the US</li>
-        <ul>
-            <a href="{{ url_for('disasters_bar') }}">Disaster Counts by State</a>
+<nav id="navbar-example" class="navbar navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#disasters_bar">Disasters Bar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#disasters_map">Disasters Map</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#disasters_map_facet">Disasters Map Facet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#avg_temp_map_county">Avg Temp Map County</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#time_line">Time Line</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#time_anim">Time Animation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cost_bar">Cost Bar</a>
+            </li>
         </ul>
-        <ul>
-            <a href="{{ url_for('disasters_map_facet') }}">Map of Disaster Declarations</a>
-        </ul>
-        <ul>
-            <a href="{{ url_for('disasters_map') }}">Disaster Declarations - County Details</a>
-        </ul>
-    <li>The Average Temperature is Increasing across Most of the US</li>
-        <ul>
-            <a href="{{ url_for('avg_temp_map_county') }}">Average Temperature by County Over Time</a>
-        </ul>
-    <li>Disasters have Become More Common in the US</li>
-        <ul>
-            <a href="{{ url_for('time_line') }}">Chart of Disaster Counts Over Time</a>
-        </ul>
-        <ul>
-            <a href="{{ url_for('time_anim') }}">Animation of Annual Declarations</a>
-        </ul>
-    <li>Costs from Disasters are Increasing Over Time</li>
-        <ul>
-            <a href="{{ url_for('cost_bar') }}">Bar Chart of Costs Over Time</a>
-        </ul>
-</ul>
+    </div>
+</nav>
