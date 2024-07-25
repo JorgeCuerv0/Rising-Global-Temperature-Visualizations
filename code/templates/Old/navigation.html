@@ -1,0 +1,29 @@
+<!-- navigation.html -->
+<ul>
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+	<li>Climate-Related Natural Disasters are Widespread Across the US</li>
+        <ul>
+            <a href="{{ url_for('disasters_bar') }}">Disaster Counts by State</a>
+        </ul>
+        <ul>
+            <a href="{{ url_for('disasters_map_facet') }}">Map of Disaster Declarations</a>
+        </ul>
+        <ul>
+            <a href="{{ url_for('disasters_map') }}">Disaster Declarations - County Details</a>
+        </ul>
+    <li>The Average Temperature is Increasing across Most of the US</li>
+        <ul>
+            <a href="{{ url_for('avg_temp_map_county') }}">Average Temperature by County Over Time</a>
+        </ul>
+    <li>Disasters have Become More Common in the US</li>
+        <ul>
+            <a href="{{ url_for('time_line') }}">Chart of Disaster Counts Over Time</a>
+        </ul>
+        <ul>
+            <a href="{{ url_for('time_anim') }}">Animation of Annual Declarations</a>
+        </ul>
+    <li>Costs from Disasters are Increasing Over Time</li>
+        <ul>
+            <a href="{{ url_for('cost_bar') }}">Bar Chart of Costs Over Time</a>
+        </ul>
+</ul>
