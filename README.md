@@ -11,10 +11,10 @@ FEMA Disasters - Geographic Dashboard:
 [https://public.tableau.com/app/profile/james.venter/viz/FemaMap/MapsDashboard](https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-GeographicDashboard/MapsDashboard?publish=yes)
 
 FEMA Disasters - County Details:
-https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/IntensityDashboard
+(https://public.tableau.com/app/profile/james.venter/viz/FemaDisasters-CountyDetails/DetailsDashboard)
 
 FEMA Disasters - State Level Intensity
-[https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/StateIntensity?publish=yes](https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/StateIntensity?publish=yes)
+(https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/IntensityDashboard)
 
 Disaster Cost:
 https://public.tableau.com/app/profile/james.venter/viz/DisasterCost/CostSummary
