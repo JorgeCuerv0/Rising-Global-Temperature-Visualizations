@@ -3,58 +3,78 @@
 {% block content %}
 <div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="scrollspy-example">
     <div id="introduction" class="section" style="background-color: #e0e0e0; padding: 40px;">
-        <h2>Introduction</h2>
-        <p>
-            Welcome to our interactive exploration of the climate change effects across the United States. Our project delves into the increasing frequency and intensity of natural disasters and the rising costs associated with these events. Through detailed visualizations, we aim to provide a comprehensive view of how climate change is impacting different regions of the country.
-        </p>
-        <p>
-            Climate change is one of the most pressing issues of our time, affecting every corner of the globe. In this project, we focus on the United States, analyzing the widespread effects of climate change through the lens of natural disasters. Our objectives are to:
-        </p>
-        <ul>
-            <li><strong>Assess the Distribution of Natural Disasters:</strong> Understand the geographical spread and intensity of various natural disasters across the US.</li>
-            <li><strong>Examine Trends Over Time:</strong> Identify whether natural disasters have become more frequent and intense over the past few decades.</li>
-            <li><strong>Analyze Economic Impact:</strong> Investigate the financial costs associated with climate-related natural disasters and their trends over time.</li>
-            <li><strong>Provide Insights and Visualizations:</strong> Offer clear, interactive visualizations that highlight the significant findings and support informed discussions on climate change mitigation.</li>
-        </ul>
-        <p>
-            Our data is sourced from reliable agencies like FEMA, NOAA, and other government databases, ensuring the accuracy and relevance of our analysis. We hope that our visualizations will help users better understand the profound impact of climate change and encourage proactive measures to address this global challenge.
-        </p>
-        <h4>Names of Group Members</h4>
-        <ul>
-            <li>James Venter</li>
-            <li>Tim Majidzadeh</li>
-            <li>Jorge Sandoval</li>
-        </ul>
+        <h4>Introduction</h4>
+        <p>The causes, effects and dangers of climate change are well-known in the academic community. Scientists first established a link between atmospheric Carbon Dioxide (CO2) and global temperature <a href=https://doi.org/10.1175/1520-0469(1967)024%3C0241:TEOTAW%3E2.0.CO;2>in 1967</a>, and have known about rising CO2 levels since <a href=https://doi.org/10.1111/j.2153-3490.1976.tb00701.x>at least 1976</a>. Analysis continues <a href=https://doi.org/10.1007/s11356-022-19718-6>to this day</a> as researchers race to understand the exact causes, effects, and risks of climate change.</p>
+
+        <p>It is critical for leaders and citizens to understand how climate change is progressing the U.S., the damage it has already caused, and the incredible danger it poses in the future. This website highlights the relationships and risk areas of U.S. temperature increases, natural disasters, and the costs of these disasters.</p>
     </div>
-    
-    <div id="disasters_bar" class="section" style="background-color: #f0f0f0;">
-        <h4>Disasters Bar</h4>
-        <p>Content for disasters bar...</p>
+    <div id="avg_temp_line" class="section" style="background-color: #c0c0c0;">
+        <h4>Temperatures are Increasing Across the United States</h4>
+        <p>The average nationwide temperature has increased by 3 degrees since 1960. Almost every state has seen its own increase.</p>
+
+        <div class='tableauPlaceholder' id='viz1722705360957' style='position: relative'><noscript><a href='#'><img alt='Temperature Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TempLine&#47;TemperatureDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TempLine&#47;TemperatureDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TempLine&#47;TemperatureDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1722705360957');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='950px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='950px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <p><a href=https://climate.nasa.gov/news/2865/a-degree-of-concern-why-global-temperatures-matter/>Scientists understand that a mere 1 to 2 degrees of warming</a> can have a substantial impact on the rate of natural disasters, biodiversity, sea levels, and human health.</p>
+
     </div>
-    
+
+    <div id="temp_disaster_corr" class="section" style="background-color: #c0c0c0;">
+        <h4>Temperature Increases are Correlated with U.S. Natural Disasters</h4>
+        <p>The rate of natural disasters is normalized by the size of each state to calculate 'Intensity'. We see that states with a greater temperature change have a greater disaster intenisty; especially for fires and droughts.</p>
+
+        <p>[CORR PLOT HERE?]</p>
+
+    </div>
+
     <div id="disasters_map_facet" class="section" style="background-color: #d0d0d0;">
-        <h4>Disasters Map Facet</h4>
-        <p>Content for disasters map facet...</p>
+        <h4>Map of Disasters by State</h4>
+        <div class='tableauPlaceholder' id='viz1720909112247' style='position: relative'><noscript><a href='#'><img alt='FEMA Natural Disasters Since 2003 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fe&#47;FemaMap&#47;MapsDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FemaMap&#47;MapsDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fe&#47;FemaMap&#47;MapsDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720909112247');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
-    
-    <div id="avg_temp_map_county" class="section" style="background-color: #c0c0c0;">
-        <h4>Avg Temp Map County</h4>
-        <p>Content for avg temp map county...</p>
+
+    <div id="disasters_bar" class="section" style="background-color: #f0f0f0;">
+        <h4>Each state experiences natural disasters differently depending on the local climate. [COMMENTARY ON TYPES OF DISASTERS BY STATE]</h4>
+
+        <div class='tableauPlaceholder' id='viz1721011844161' style='position: relative'><noscript><a href='#'><img alt='FEMA Natural Disaster Declarations Since 2003 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StateCntBar&#47;StateCntBar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StateCntBar&#47;StateCntBar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StateCntBar&#47;StateCntBar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1721011844161');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
     </div>
-    
-    <div id="time_line" class="section" style="background-color: #b0b0b0;">
-        <h4>Time Line</h4>
-        <p>Content for time line...</p>
-    </div>
-    
-    <div id="time_anim" class="section" style="background-color: #a0a0a0;">
-        <h4>Time Animation</h4>
-        <p>Content for time animation...</p>
-    </div>
-    
+
     <div id="cost_bar" class="section" style="background-color: #909090;">
-        <h4>Cost Bar</h4>
-        <p>Content for cost bar...</p>
+        <h4>Changes in climate and increases in the rate of natural disasters are destructive and costly for Americans.</h4>
+        <p>Since 2023, FEMA-declared natural disasters have accounted for over [VALUE] in damages. Over [COUNT] individual disasters have caused $1 billion in damages or more. These costs have been increasing over time.</p>
     </div>
+
+    <div class='tableauPlaceholder' id='viz1720909193962' style='position: relative'><noscript><a href='#'><img alt='Total Annual Cost of Billion Dollar Natural Disasters Since 1980with 3 Year Moving Average ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DisasterCost&#47;CostSummary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DisasterCost&#47;CostSummary' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;DisasterCost&#47;CostSummary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720909193962');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <div id="outro" class="section" style="background-color: #909090;">
+        <h4>Acknowledgements</h4>
+
+        <p>This website was created by Timothy Majidzadeh, Jorge Sandoval, and James Venter for the UC Berkeley MIDS Datasci 209 Summer Term. Timothy created the temperature chart, prototyped the website, wrote the introductory text for each section, and finalized website formatting. Jorge... James...</p>
+
+        <p>This website relies on data from the National Centers for Environmental Information and the Federal Emergency Management Agency.</p>
+
+        <p>We also thank our beta testers for their feedback for improving this website: Evan W., Yifan Y., Scott T., Meg D., Peter V., Axel, Myles, and Tahnea.</p>
+
+        <h4>Works Cited</h4>
+
+        <p>    Alan Buis, "A Degree of Concern: Why Global Temperatures Matter: Part 2," National Aeronautics and Space Administration, June 19, 2019, available at <a href=https://climate.nasa.gov/news/2865/a-degree-of-concern-why-global-temperatures-matter/>https://climate.nasa.gov/news/2865/a-degree-of-concern-why-global-temperatures-matter/</a>.</p>
+
+        <p>    "County Time Series", National Centers for Environmental Information, available at <a href=https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series>https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series</a>.</p>
+
+        <p>    "Statewide Time Series", National Centers for Environmental Information, available at <a href=https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series>https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series</a>.</p>
+
+        <p>    "National Time Series", National Centers for Environmental Information, available at <a href=https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series>https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series</a>.</p>
+
+        <p>    "OpenFEMA Dataset: Disaster Declaraions Summaries - v2," Federal Emergency Management Agency, available at <a href=https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2>https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2</a>.</p>
+
+        <p>    Usability Studies with Evan W., Yifan Y., Scott T., Meg D., Peter V., Axel, Myles, Tahnea, and other anonymous contributors.</p>
+
+        <p>    Manabe, S., and Wetherald, R., "Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity," Journal of the Atmospheric Sciences Vol. 24, Iss. 3, May 1, 1967, pp. 241-259, available at <a href=https://doi.org/10.1175/1520-0469(1967)024%3C0241:TEOTAW%3E2.0.CO;2>https://doi.org/10.1175/1520-0469(1967)024%3C0241:TEOTAW%3E2.0.CO;2</a>.</p>
+
+        <p>    Keeling, C., et al., "Atmospheric carbon dioxide variations at Mauna Loa Observatory, Hawaii," Tellus Vol. 28, Iss. 6, December 1976, pp. 538-551, available at <a href=https://doi.org/10.1111/j.2153-3490.1976.tb00701.x>https://doi.org/10.1111/j.2153-3490.1976.tb00701.x</a>.</p>
+
+        <p>    Abbass, K., et al., "A review of the global climate change impacts, adaptation, and sustainable mitigation measures," Environmental Science and Pollution Research, Vol. 29, pp. 42539-42559, April 4, 2022, available at <a href=https://doi.org/10.1007/s11356-022-19718-6>https://doi.org/10.1007/s11356-022-19718-6</a>.</p>
+
+    </div>
+
 </div>
+
 {% endblock %}

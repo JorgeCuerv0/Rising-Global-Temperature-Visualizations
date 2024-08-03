@@ -7,11 +7,14 @@ We would like to utilize epa.gov climate change indicators data, as well as othe
 
 Links to Tableau Public:
 
-FEMA Maps:
-https://public.tableau.com/app/profile/james.venter/viz/FemaMap/MapsDashboard
+FEMA Disasters - Geographic Dashboard:
+[https://public.tableau.com/app/profile/james.venter/viz/FemaMap/MapsDashboard](https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-GeographicDashboard/MapsDashboard?publish=yes)
 
-FEMA County Details:
-https://public.tableau.com/app/profile/james.venter/viz/FemaCountyDetails/CountyDetailsDashboard_1
+FEMA Disasters - County Details:
+[https://public.tableau.com/app/profile/james.venter/viz/FemaCountyDetails/CountyDetailsDashboard_1](https://public.tableau.com/app/profile/james.venter/viz/FemaDisasters-CountyDetails/DetailsDashboard)
+
+FEMA Disasters - State Level Intensity
+[https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/StateIntensity?publish=yes](https://public.tableau.com/app/profile/james.venter/viz/FEMADisasters-StateLevelIntensity/StateIntensity?publish=yes)
 
 Disaster Cost:
 https://public.tableau.com/app/profile/james.venter/viz/DisasterCost/CostSummary
