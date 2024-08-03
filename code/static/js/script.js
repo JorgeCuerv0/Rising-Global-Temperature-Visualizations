@@ -13,4 +13,14 @@ $(document).ready(function(){
 
     // Enable scrollspy to update the navbar links based on scroll position
     $('body').scrollspy({ target: '#navbar-example' });
+
+    // Collapse the menu when clicking outside of it
+    $(document).click(function(event) {
+        var clickover = $(event.target);
+        var $navbar = $(".navbar-collapse");               
+        var _opened = $navbar.hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
+            $navbar.collapse('hide');
+        }
+    });
 });
