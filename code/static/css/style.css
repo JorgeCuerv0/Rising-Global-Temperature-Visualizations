@@ -178,42 +178,43 @@ body {
 
 /* Gradient effect for sections */
 .section1 {
-    background-color: #ffe6e6; /* Light red */
+    background-color: #ffe6e6; /* Very light red */
 }
 
 .section2 {
-    background-color: #ffcccc; /* Very light red */
+    background-color: #ffdbdb; /* Light red */
 }
 
 .section3 {
-    background-color: #ffb3b3; /* Light red */
+    background-color: #ffd1d1; /* Light red */
 }
 
 .section4 {
-    background-color: #ff9999; /* Soft red */
+    background-color: #ffc6c6; /* Light red */
 }
 
 .section5 {
-    background-color: #ff8080; /* Medium red */
+    background-color: #ffbaba; /* Soft red */
 }
 
 .section6 {
-    background-color: #ff6666; /* Bright red */
+    background-color: #ffb0b0; /* Medium red */
 }
 
 .section7 {
-    background-color: #ff4d4d; /* Strong red */
+    background-color: #ffa5a5; /* Bright red */
 }
 
 .section8 {
-    background-color: #ff3333; /* Dark red */
+    background-color: #ff8080; /* Strong red */
 }
 
 /* Link color adjustments */
 a {
-    font-weight: bolder; /* White color for links */
+    color: #0056b3; /* Darker blue for links */
+    font-weight: bolder; /* Make links bold */
 }
 
 a:hover {
-    color: #ff0000; /* Lighter shade of white on hover */
+    color: #00264d; /* Even darker blue on hover */
 }
