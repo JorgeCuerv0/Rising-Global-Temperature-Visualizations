@@ -2,6 +2,8 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
 .navbar {
@@ -74,13 +76,6 @@ body {
     color: #007bff; /* Blue color on hover */
 }
 
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: white; /* Default background color for sections */
-    width: 100%;
-}
-
 .scrollspy-example {
     position: relative;
     margin-top: .5rem;
@@ -108,7 +103,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50vh; /* Make the welcome container take up half the screen height */
+    height: 50%; /* Full viewport height */
     z-index: -1; /* Ensure it stays behind other content */
     overflow: hidden;
 }
@@ -135,10 +130,49 @@ body {
 }
 
 .main-content {
-    margin-top: 50vh; /* Push content below the welcome image */
-    padding-top: 60px; /* Align content with navbar height */
+    margin-top: 100vh; /* Push content below the welcome image */
+    padding-top: 0; /* Align content with navbar height */
     background-color: white; /* Background color for the main content */
     width: 100%;
     position: relative;
     z-index: 1;
+}
+
+.section {
+    padding: 40px;
+    margin: 0; /* Remove the margin to make the sections full width */
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+}
+
+.section h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+}
+
+.tableau-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tableauPlaceholder {
+    margin: 0 auto;
+    width: 100%;
+    height: calc(66.6vw * 0.75); /* Maintain the aspect ratio */
+}
+
+.between-section-image {
+    width: 100%;
+    height: 50vh; /* Adjust height as needed */
+    object-fit: cover;
+    display: block; /* Ensure it takes up space */
+    margin: 0; /* Ensure no extra margin */
+    padding: 0; /* Ensure no extra padding */
 }
