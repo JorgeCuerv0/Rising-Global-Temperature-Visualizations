@@ -103,7 +103,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%; /* Full viewport height */
+    height: 50vh; /* Make the welcome container take up half the screen height */
     z-index: -1; /* Ensure it stays behind other content */
     overflow: hidden;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .main-content {
-    margin-top: 100vh; /* Push content below the welcome image */
+    margin-top: 50vh; /* Push content below the welcome image */
     padding-top: 0; /* Align content with navbar height */
     background-color: white; /* Background color for the main content */
     width: 100%;
