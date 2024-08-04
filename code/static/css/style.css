@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #e0e0e0;
+    background-color: #f9f9f9;
 }
 
 .navbar {
@@ -132,7 +132,7 @@ body {
 .main-content {
     margin-top: 50vh; /* Push content below the welcome image */
     padding-top: 0; /* Align content with navbar height */
-    background-color: #e0e0e0; /* Background color for the main content */
+    background-color: white; /* Background color for the main content */
     width: 100%;
     position: relative;
     z-index: 1;
@@ -141,7 +141,6 @@ body {
 .section {
     padding: 40px;
     margin: 0; /* Remove the margin to make the sections full width */
-    background-color: #e0e0e0; /* Set a uniform background color */
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -166,7 +165,6 @@ body {
     margin: 0 auto;
     width: 100%;
     height: calc(66.6vw * 0.75); /* Maintain the aspect ratio */
-    padding-bottom: 20px; /* Remove excess padding */
 }
 
 .between-section-image {
@@ -176,4 +174,46 @@ body {
     display: block; /* Ensure it takes up space */
     margin: 0; /* Ensure no extra margin */
     padding: 0; /* Ensure no extra padding */
+}
+
+/* Gradient effect for sections */
+.section1 {
+    background-color: #ffe6e6; /* Light red */
+}
+
+.section2 {
+    background-color: #ffcccc; /* Very light red */
+}
+
+.section3 {
+    background-color: #ffb3b3; /* Light red */
+}
+
+.section4 {
+    background-color: #ff9999; /* Soft red */
+}
+
+.section5 {
+    background-color: #ff8080; /* Medium red */
+}
+
+.section6 {
+    background-color: #ff6666; /* Bright red */
+}
+
+.section7 {
+    background-color: #ff4d4d; /* Strong red */
+}
+
+.section8 {
+    background-color: #ff3333; /* Dark red */
+}
+
+/* Link color adjustments */
+a {
+    font-weight: bolder; /* White color for links */
+}
+
+a:hover {
+    color: #ff0000; /* Lighter shade of white on hover */
 }
